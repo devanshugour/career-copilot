@@ -1,5 +1,3 @@
-"use server";
-
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { hashPassword } from "./password";
